@@ -1,13 +1,15 @@
 # Curriculum vitae
 
 ## **Personal Information**
- **Name**
- Dmitrii Chernyshev
+ **Name**  
+
+ Dmitrii Chernyshev  
 
  **Contact**
   * +7951 641 98 38 Telegramm
 
- **Objective** 
+ **Objective**  
+
  I want to learn new things and I want to take part in interesting projects that improve the world
 
  **Skills** 
@@ -48,5 +50,6 @@ render() {
   * FreeCodeCamp
   * EF eglish school
 
- **Level english**
+ **Level english**  
+ 
   B1
