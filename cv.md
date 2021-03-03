@@ -1,14 +1,25 @@
-#Curriculum vitae
+# Curriculum vitae
 
-1. Dmitrii Chernyshev
+## **Personal Information**
+ **Name**
+ Dmitrii Chernyshev
 
-2. +7951 641 98 38, Telegramm
+ **Contact**
+  * +7951 641 98 38 Telegramm
 
-3. I want to learn new things and I want to take part in interesting projects that improve the world
+ **Objective** 
+ I want to learn new things and I want to take part in interesting projects that improve the world
 
-4. HTML/CSS,JavaScript, BEM, Git
+ **Skills** 
+ * HTML
+ * CSS
+ * JavaScript
+ * BEM
+ * Git
 
-5. class CardList {
+ **Code examples** 
+ ```
+class CardList {
   constructor(container, makeCard, api) {
     this.container = container;
     this.makeCard = makeCard;
@@ -30,6 +41,13 @@ render() {
      }) 
   }
 }
-6.
-7. Yandex.Praktikum, FreeCodeCamp, EF eglish school
-8. B1
+```
+ **Work experience**
+
+ **Qualifications**
+  * Yandex.Praktikum
+  * FreeCodeCamp
+  * EF eglish school
+
+ **Level english**
+  B1
