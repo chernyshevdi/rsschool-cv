@@ -25,7 +25,6 @@ class CardList {
     this.makeCard = makeCard;
     this.api = api;
   }
-
 addCard(card) {
   const cardElem = card.create();
   this.container.appendChild(cardElem);
