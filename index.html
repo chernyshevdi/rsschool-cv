@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Curriculum vitae</title>
+    </head>
+
+    <body>
+        <section class ="page">
+           <header class ="header">
+                <h1 class ="header-title">DMITRII <img class ="header-photo" alt="" src="jinyqmEwde4.jpg">CHERNYSHEV</h1>
+            </header>
+            <div class ="about">
+                <div class= "about-content">
+                    <h2 class= "about-title">Contact</h2>
+                        <p class ="about-text">+7 951 641 98 38 Telegramm</p>
+                </div>
+                <div class= "about-content">
+                    <h2 class= "about-title">Objective</h2>
+                        <p class ="about-text">I want to learn new things and I want to take part in interesting projects that improve the world</p>
+                </div>
+                <div class= "about-content">
+                    <h2 class= "about-title">Skills</h2>
+                    <ul class="about-ul">
+                        <li class= "aboult-li">HTML</li>
+                        <li class= "aboult-li">CSS</li>
+                        <li class= "aboult-li">JavaScript</li>
+                        <li class= "aboult-li">BEM</li>
+                        <li class= "aboult-li">Git</li>
+                    </ul>
+                    
+                </div>
+                <div class= "about-content">
+                    <h2 class= "about-title">Code examples</h2> 
+                        <code class= "about-code">
+                        class CardList {
+                        constructor(container, makeCard, api) {
+                            this.container = container;
+                            this.makeCard = makeCard;
+                            this.api = api;
+                        }
+                        <br>
+                        <br>
+                        addCard(card) {
+                        const cardElem = card.create();
+                        this.container.appendChild(cardElem);
+                        }
+                        <br>
+                        <br>
+                        render() {
+                        this.api.getCards().then((rest) =>{
+                            rest.forEach(function(data) {
+                            const card = this.makeCard(data.name, data.link);
+                            this.addCard(card)}.bind(this))})
+                            .catch((err) => {
+                            console.log(err);
+                            }) 
+                        }
+                        }
+                    </code>
+                </div>
+                <div class= "about-content">
+                    <h2 class= "about-title">Qualifications</h2>
+                    <ul class="about-ul">
+                        <li class= "aboult-li">Yandex.Praktikum</li>
+                        <li class= "aboult-li">FreeCodeCamp</li>
+                        <li class= "aboult-li">EF eglish school</li>
+                    </ul>
+                </div>
+                <div class= "about-content">
+                    <h2 class= "about-title">Level english</h2>  
+                        <p class ="about-text">B1</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
+
